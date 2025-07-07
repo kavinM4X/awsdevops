@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Cricket Scoreboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f4f8;
+      padding: 20px;
+    }
+
+    .scoreboard {
+      max-width: 500px;
+      margin: auto;
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      border: 2px solid #3333cc;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+      color: #3333cc;
+    }
+
+    .match-info, .team-score, .batsmen {
+      margin-top: 20px;
+    }
+
+    .batsmen table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    .batsmen th, .batsmen td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: center;
+    }
+
+    .batsmen th {
+      background-color: #3333cc;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="scoreboard">
+    <h2>Cricket Scoreboard</h2>
+
+    <div class="match-info">
+      <strong>Match:</strong> India vs Australia <br>
+      <strong>Target:</strong> Australia scored 250
+    </div>
+
+    <div class="team-score">
+      <strong>India:</strong> 160/2
+    </div>
+
+    <div class="batsmen">
+      <h3>Batting</h3>
+      <table>
+        <tr>
+          <th>Player</th>
+          <th>Runs</th>
+        </tr>
+        <tr>
+          <td>Virat Kohli</td>
+          <td>90</td>
+        </tr>
+        <tr>
+          <td>Shubman Gill</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td>MS Dhoni</td>
+          <td>15</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+</body>
+</html>
